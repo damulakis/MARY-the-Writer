@@ -1,0 +1,76 @@
+/* FONTS */
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/Inter.ttf');
+}
+
+/* TITTLE */
+h1 {
+    font-family: 'Inter';
+    font-size: 44px;
+    font-weight:400;
+    color: #1f1e03;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #11020d;
+}
+
+/* HEADING - LAYOUT */
+.heading {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    gap: 28px;
+    margin-top: 20px;
+}
+
+/* HEADING - TEXT */
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 0;
+    grid-area: 1 / 1 / 2 / 3;
+    margin-left: 18px;
+
+}
+
+/* H1 AND P CLOSER */
+.heading-text h1,
+.heading-text p {
+    margin: 0;
+}
+
+/* HEADING BUTTONS - WRITE AND FINISH */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    min-height: 40px;
+    grid-area: 2 / 1 / 3 / 3;
+    margin-left: 18px;
+}
+
+/* HEADING - MINI WRITER */
+.mini_writer_space {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    grid-area: 1 / 4 / 4 / 6;
+    margin-left: 20vw;
+    margin-top: 12px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 2 / 1 / 3 / 3; }
+.div3 { grid-area: 1 / 3 / 3 / 6; }

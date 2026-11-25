@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Writing Page</title>
+    <link rel="stylesheet" href="writing.css">
 </head>
 <body>
-    
+    <section class="heading">
+    <div class="heading-text">
+        <h1>Write your dreams into reality</h1>
+        <p>Make the world you dream about real.</p>
+    </div>
+    <div class="buttons">
+        <button id="write" class="pill" type="button">Write</button>
+        <button id="finish" class="pill" type="button">Finish</button>
+    </div>
+
+    <div class="mini_writer_space">
+        <div class="div1" id="word-count">
+            <span id="words">0</span>/<input id="goal" type="text" inputmode="numeric"
+                placeholder="goal" maxlength="6" aria-label="word goal">
+            <small>Words</small>
+        </div>
+        <div class="div2" id="timer">0:00:00</div>
+        <div class="div3 writer_animation">
+            <img src="assets/character_writing.gif" alt="Pixel Animation of young woman writing on a laptop" width="160" height="160">
+        </div>
+    </div>
+</section>
 </body>
 </html>
