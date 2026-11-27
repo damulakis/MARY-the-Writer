@@ -26,7 +26,7 @@ p {
 
 
 /* LAYOUT */
-.start_page {
+.start-page {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
